@@ -535,7 +535,7 @@ opThingsFolder:AddSwitch("Anti AFK", function(state)
 
         madebybloodofbatus.Name = "madebybloodofbatus"
         madebybloodofbatus.Parent = thisoneissocoldww
-        madebybloodofbatus.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+        madebybloodofbatus.BackgroundColor3 = Color3.fromRGB(27, 6, 87)
         madebybloodofbatus.Position = UDim2.new(0.085,0,0.13,0)
         madebybloodofbatus.Size = UDim2.new(0,225,0,96)
         UICornerw.Parent = madebybloodofbatus
