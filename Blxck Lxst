@@ -7,7 +7,7 @@ local blacklist = {
     [4868383140] = true, -- jugador 3
 }
 
-local scriptURL = "https://raw.githubusercontent.com/CoronaBlanca/25092009xlxrxxm/refs/heads/main/Mxsclx%20Lxgxns"
+local scriptURL = "https://raw.githubusercontent.com/CoronaBlanca/Frxx-Vxrsxxn/refs/heads/main/Gxmxs"
 
 if blacklist[player.UserId] then
     warn("Este jugador está en la blacklist. No se ejecutará el script.")
