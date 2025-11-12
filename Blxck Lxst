@@ -1,0 +1,18 @@
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+local blacklist = {
+    [9591633576] = true, -- jugador 1
+    [7827908860] = true, -- jugador 2
+    [4868383140] = true, -- jugador 3
+}
+
+local scriptURL = "https://raw.githubusercontent.com/CoronaBlanca/25092009xlxrxxm/refs/heads/main/Mxsclx%20Lxgxns"
+
+if blacklist[player.UserId] then
+    warn("Este jugador está en la blacklist. No se ejecutará el script.")
+    player:Kick("🚫 Acceso denegado a Galaxy Hub.")
+    return
+end
+
+loadstring(game:HttpGet(scriptURL))()
