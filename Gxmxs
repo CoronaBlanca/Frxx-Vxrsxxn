@@ -1,0 +1,16 @@
+local HttpService = game:GetService("HttpService")
+
+local games = {
+    [3623096087] = "https://raw.githubusercontent.com/CoronaBlanca/25092009xlxrxxm/refs/heads/main/Mxsclx%20Lxgxns", -- Muscle Legends
+    [16480898254] = "https://raw.githubusercontent.com/Usuario/Repositorio/refs/heads/main/OtroScript" -- Ejemplo
+}
+
+local placeId = game.PlaceId
+
+if games[placeId] then
+    local scriptURL = games[placeId]
+    loadstring(game:HttpGet(scriptURL))()
+else
+    warn("⚠️ Aun no hay script en este juego. PlaceId: " .. placeId)
+    game.Players.LocalPlayer:Kick("🚫 Este juego no está autorizado para Galaxy Hub.")
+end
