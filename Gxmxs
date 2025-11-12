@@ -1,7 +1,7 @@
 local HttpService = game:GetService("HttpService")
 
 local games = {
-    [3623096087] = "https://raw.githubusercontent.com/CoronaBlanca/25092009xlxrxxm/refs/heads/main/Mxsclx%20Lxgxns", -- Muscle Legends
+    [3623096087] = "https://raw.githubusercontent.com/Protocol-188373781637/Mxsclx-Lxgxns/refs/heads/main/Xssxmbly", -- Muscle Legends
     [16480898254] = "https://raw.githubusercontent.com/Usuario/Repositorio/refs/heads/main/OtroScript" -- Ejemplo
 }
 
