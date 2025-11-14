@@ -4,7 +4,7 @@ local player = Players.LocalPlayer
 local blacklist = {
     [9591633576] = true,
     [7827908860] = true,
-    [4868383140] = true,
+    [8427775677] = true,
 }
 
 local scriptURL = "https://raw.githubusercontent.com/CoronaBlanca/Frxx-Vxrsxxn/refs/heads/main/Gxmxs"
